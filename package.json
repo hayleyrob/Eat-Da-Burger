@@ -2,9 +2,10 @@
   "name": "Eat-Da-Burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,16 @@
     "url": "https://github.com/hayleyrob/Eat-Da-Burger/issues"
   },
   "homepage": "https://github.com/hayleyrob/Eat-Da-Burger#readme",
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "handlebars": "^4.7.6",
     "mysql2": "^2.1.0",
-    "node": "^14.4.0"
+    "node": "^14.4.0",
+    "yarn": "^1.22.4"
   }
 }
